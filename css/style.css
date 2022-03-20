@@ -43,11 +43,36 @@
 
 .exe {
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 30px;
+  grid-template-columns: 500px 500px;
+  row-gap: 30px;
+  justify-content: center;
 }
 
 .form-group-sub-exe4 {
   display: grid;
   grid-template-columns: 200px 130px;
+}
+
+.description-exe > div {
+  display: grid;
+  grid-template-columns: 80px auto;
+  row-gap: 20px;
+}
+
+label,
+.title {
+  font-weight: 600;
+}
+.paragraph {
+  margin-bottom: 0;
+}
+
+.description-exe,
+.exe1,
+.exe2,
+.exe3,
+.exe4 {
+  border: 1px solid red;
+  padding: 15px;
+  background: rgba(9, 189, 135, 0.329);
 }

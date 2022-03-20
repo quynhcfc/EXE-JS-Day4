@@ -26,18 +26,24 @@
       <!-- Start EXE 1 -->
       <div class="description-exe">
         <h2>EXE 1:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập điểm chuẩn, điểm 3 môn, điểm ưu.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Xuất tổng điểm, cho biết thí sinh đậu hay rớt.</p>
+        </div>
       </div>
       <div class="exe1">
-        <label for="" class="item1 mb-0">Điểm chuẩn:</label>
+        <label for="diemChuan" class="item1 mb-0">Điểm chuẩn:</label>
         <input type="text" name="" class="form-control text-center item2" id="diemChuan" placeholder="nhập"></input>
 
-        <div class="item3">Điểm ưu tiên</div>
+        <div class="item3 font-weight-bold">Điểm ưu tiên</div>
         
-        <div>Khu vực</div>
-        <div>Đối tượng</div>
+        <div class="font-weight-bold">Khu vực</div>
+        <div class="font-weight-bold">Đối tượng</div>
 
         <!-- 1 -->
-        <label for="" class="mb-0">Điểm môn 1:</label>
+        <label for="diemMon1" class="mb-0">Điểm môn 1:</label>
         <input type="text" name="diem" class="diemMon form-control text-center" id="diemMon1" placeholder="nhập" value=""></input>
         <label for="" class="form-check-label">
             <input type="radio" class="form-check-input" name="khuvuc" id="khuVuc1" value="2"></input>
@@ -49,7 +55,7 @@
         </label>
 
         <!-- 2 -->
-        <label for="" class="mb-0">Điểm môn 2:</label>
+        <label for="diemMon2" class="mb-0">Điểm môn 2:</label>
         <input type="text" name="diem" class="diemMon form-control text-center" id="diemMon2" placeholder="nhập" value=""></input>
         <label for="" class="form-check-label">
             <input type="radio" class="form-check-input" name="khuvuc" id="" value="1"></input>
@@ -61,7 +67,7 @@
         </label>
 
         <!-- 3 -->
-        <label for="" class="mb-0">Điểm môn 3:</label>
+        <label for="diemMon3" class="mb-0">Điểm môn 3:</label>
         <input type="text" name="diem" class="diemMon form-control text-center" id="diemMon3" placeholder="nhập" value=""></input>
         <label for="" class="form-check-label">
             <input type="radio" class="form-check-input" name="khuvuc" id="" value="0.5"></input>
@@ -75,13 +81,13 @@
         <!--  -->
         <label for="" class="mb-0">Tổng điểm:</label>
         <input type="text" name="" class="form-control text-center" id="txt-tongDiem" placeholder="điểm" readonly="readyonly"></input>
-        <label for="" class="form-check-label">
-            <input type="radio" class="form-check-input" name="khuvuc" id="" value="0"></input>
-            O    
+        <label for="khuvuc0" class="form-check-label">
+            <input type="radio" class="form-check-input" name="khuvuc" id="khuvuc0" value="0"></input>
+            Không   
         </label>
-        <label for="" class="form-check-label">
-            <input type="radio" class="form-check-input" name="doituong" id="" value="0"></input>
-            0    
+        <label for="doituong0" class="form-check-label">
+            <input type="radio" class="form-check-input" name="doituong" id="doituong0" value="0"></input>
+            Không    
         </label>
 
         <!--  -->
@@ -93,6 +99,12 @@
       <!-- Start EXE 2 -->
       <div class="description-exe">
         <h2>EXE 2:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập tên khách hàng, số kW điện tiêu thụ.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Tính và xuất số tiền phải trả.</p>
+        </div>
       </div>
       <div class="exe2">
         <div class="form-group form-group-exe2">
@@ -113,22 +125,28 @@
       <!-- Start EXE 3 -->
       <div class="description-exe">
         <h2>EXE 3:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập họ tên, thổng thu nhập năm, số người phụ thuộc.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Xuất số tiền thuế phải nộp.</p>
+        </div>
       </div>
       <div class="exe3">
         <div class="form-group form-group-exe3">
-          <label for="" class="mb-0">Họ tên:</label>
-          <input type="text" name="" id="" class="form-control text-center" placeholder="nhập" aria-describedby="helpId">
+          <label for="nameKH" class="mb-0">Họ tên:</label>
+          <input type="text" name="" id="nameKH" class="form-control text-center" placeholder="nhập" aria-describedby="helpId">
         </div>
         <div class="form-group form-group-exe3">
-          <label for="" class="mb-0">Tổng thu nhập:</label>
+          <label for="tongThuNhap" class="mb-0">Tổng thu nhập:</label>
           <input type="text" name="" id="tongThuNhap" class="form-control text-center" placeholder="nhập" aria-describedby="helpId">
         </div>
         <div class="form-group form-group-exe3">
-          <label for="" class="mb-0">Khấu trừ:</label>
+          <label for="khauTru" class="mb-0">Khấu trừ:</label>
           <input type="text" name="" id="khauTru" class="form-control text-center" placeholder="4.000.000"  aria-describedby="helpId" readonly>
         </div>
         <div class="form-group form-group-exe3">
-          <label for="" class="mb-0">Số người phụ thuộc:</label>
+          <label for="soNguoi" class="mb-0">Số người phụ thuộc:</label>
           <input type="text" name="" id="soNguoi" class="form-control text-center" placeholder="nhập" aria-describedby="helpId">
         </div>
         <div class="form-group form-group-exe3">
@@ -141,36 +159,43 @@
       <!-- Start EXE 4 -->
       <div class="description-exe">
         <h2>EXE 4:</h2>
+        <div>
+          <div class="title">Input:</div>
+          <p class="paragraph">Nhập mã KH, chọn loại KH, số kênh, số kết nối.</p>
+          <div class="title">Output:</div>
+          <p class="paragraph">Xuất số tiền phải trả để thuê kênh.</p>
+        </div>
       </div>
       <div class="exe4">
         <div class="form-group form-group-exe4">
-          <label for="" class="mb-0">Mã KH:</label>
-          <input type="text" name="" id="" class="form-control text-center" placeholder="nhập mã khách hàng" aria-describedby="helpId">
+          <label for="maKH" class="mb-0">Mã KH:</label>
+          <input type="text" name="" id="maKH" class="form-control text-center" placeholder="nhập mã khách hàng" aria-describedby="helpId">
         </div>
         <div class="form-group-sub-exe4">
           <div class="form-group">
             <label for="" class="mb-0 d-block">Loại KH:</label>
-            <label for="personal" class="form-check-label mb-0 ml-5 d-block">
-              <input type="radio" class="form-check-input" name="loaiKH" id="personal" value="0"></input>
+            <label for="personal" class="form-check-label mb-0 ml-5 d-block font-weight-normal">
+              <input type="radio" class="form-check-input " name="loaiKH" id="personal" value="0"></input>
               Cá nhân   
             </label>
-            <label for="company" class="form-check-label mb-0 ml-5 d-block">
+            <label for="company" class="form-check-label mb-0 ml-5 d-block font-weight-normal">
               <input type="radio" class="form-check-input " name="loaiKH" id="company" value="1"></input>
               Doanh nghiệp    
             </label>
           </div>
           <div class="form-group">
-            <label for="">Số kết nối:</label>
+            <label for="connect">Số kết nối:</label>
             <input type="text" name="" id="connect" class="form-control text-center" placeholder="" aria-describedby="helpId">
           </div>
-          <!-- <div class="form-group">
-            <label for="">Số kết nối:</label>
-            <input type="text" name="" id="" class="form-control text-center" placeholder="" aria-describedby="helpId">
-          </div> -->
+          <div></div>
+          <div class="form-group">
+            <label for="channel">Số kênh:</label>
+            <input type="text" name="" id="channel" class="form-control text-center" placeholder="số kênh" aria-describedby="helpId">
+          </div>
         </div>
         <div class="form-group form-group-exe4">
           <button class="btn btn-success" id="tinhTien">Tính tiền:</button>
-          <input type="text" name="" id="" class="form-control text-center" placeholder="tiền cước" aria-describedby="helpId" readonly>
+          <input type="text" name="" id="ketQuaExe4" class="form-control text-center" placeholder="tiền cước" aria-describedby="helpId" readonly>
         </div>
       </div>
       <!-- End EXE 4 -->
