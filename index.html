@@ -19,6 +19,162 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <h1 class="container text-center">JavaScript day 4</h1>
+
+    <div class="container exe">
+
+      <!-- Start EXE 1 -->
+      <div class="description-exe">
+        <h2>EXE 1:</h2>
+      </div>
+      <div class="exe1">
+        <label for="" class="item1 mb-0">Điểm chuẩn:</label>
+        <input type="text" name="" class="form-control text-center item2" id="diemChuan" placeholder="nhập"></input>
+
+        <div class="item3">Điểm ưu tiên</div>
+        
+        <div>Khu vực</div>
+        <div>Đối tượng</div>
+
+        <!-- 1 -->
+        <label for="" class="mb-0">Điểm môn 1:</label>
+        <input type="text" name="diem" class="diemMon form-control text-center" id="diemMon1" placeholder="nhập" value=""></input>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="khuvuc" id="khuVuc1" value="2"></input>
+            A    
+        </label>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="doituong" id="" value="2.5"></input>
+            1    
+        </label>
+
+        <!-- 2 -->
+        <label for="" class="mb-0">Điểm môn 2:</label>
+        <input type="text" name="diem" class="diemMon form-control text-center" id="diemMon2" placeholder="nhập" value=""></input>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="khuvuc" id="" value="1"></input>
+            B    
+        </label>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="doituong" id="" value="1.5"></input>
+            2    
+        </label>
+
+        <!-- 3 -->
+        <label for="" class="mb-0">Điểm môn 3:</label>
+        <input type="text" name="diem" class="diemMon form-control text-center" id="diemMon3" placeholder="nhập" value=""></input>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="khuvuc" id="" value="0.5"></input>
+            C    
+        </label>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="doituong" id="" value="1"></input>
+            3    
+        </label>
+
+        <!--  -->
+        <label for="" class="mb-0">Tổng điểm:</label>
+        <input type="text" name="" class="form-control text-center" id="txt-tongDiem" placeholder="điểm" readonly="readyonly"></input>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="khuvuc" id="" value="0"></input>
+            O    
+        </label>
+        <label for="" class="form-check-label">
+            <input type="radio" class="form-check-input" name="doituong" id="" value="0"></input>
+            0    
+        </label>
+
+        <!--  -->
+        <button class="btn btn-success" id="check">Xét điểm</button>
+      <p class="bg-primary d-inline p-2 mb-0" id="ketQua">Kết quả</p>
+      </div>
+      <!-- End EXE 1 -->
+
+      <!-- Start EXE 2 -->
+      <div class="description-exe">
+        <h2>EXE 2:</h2>
+      </div>
+      <div class="exe2">
+        <div class="form-group form-group-exe2">
+          <label for="tenKH" class="mb-0">Tên khách hàng:</label>
+          <input type="text" name="" id="tenKH" class="form-control text-center" placeholder="họ tên" aria-describedby="helpId">
+        </div>
+        <div class="form-group form-group-exe2">
+          <label for="soDien" class="mb-0">Số kW:</label>
+          <input type="text" name="" id="soDien" class="form-control text-center" placeholder="số kW" aria-describedby="helpId">
+        </div>
+        <div class="form-group form-group-exe2">
+          <button class="btn btn-success" id="tinhTienExe2">Thành tiền:</button>
+          <input type="text" name="" id="tongTienExe2" class="form-control text-center" placeholder="tiền" readonly="readyonly" aria-describedby="helpId">
+        </div>
+      </div>
+      <!-- End EXE 2 -->
+
+      <!-- Start EXE 3 -->
+      <div class="description-exe">
+        <h2>EXE 3:</h2>
+      </div>
+      <div class="exe3">
+        <div class="form-group form-group-exe3">
+          <label for="" class="mb-0">Họ tên:</label>
+          <input type="text" name="" id="" class="form-control text-center" placeholder="nhập" aria-describedby="helpId">
+        </div>
+        <div class="form-group form-group-exe3">
+          <label for="" class="mb-0">Tổng thu nhập:</label>
+          <input type="text" name="" id="tongThuNhap" class="form-control text-center" placeholder="nhập" aria-describedby="helpId">
+        </div>
+        <div class="form-group form-group-exe3">
+          <label for="" class="mb-0">Khấu trừ:</label>
+          <input type="text" name="" id="khauTru" class="form-control text-center" placeholder="4.000.000"  aria-describedby="helpId" readonly>
+        </div>
+        <div class="form-group form-group-exe3">
+          <label for="" class="mb-0">Số người phụ thuộc:</label>
+          <input type="text" name="" id="soNguoi" class="form-control text-center" placeholder="nhập" aria-describedby="helpId">
+        </div>
+        <div class="form-group form-group-exe3">
+          <button class="btn btn-success" id="tinhTienThue">Tính</button>
+          <input type="text" name="" id="tienThue" class="form-control text-center" placeholder="tiền thuế nộp" aria-describedby="helpId" readonly>
+        </div>
+      </div>
+      <!-- End EXE 3 -->
+
+      <!-- Start EXE 4 -->
+      <div class="description-exe">
+        <h2>EXE 4:</h2>
+      </div>
+      <div class="exe4">
+        <div class="form-group form-group-exe4">
+          <label for="" class="mb-0">Mã KH:</label>
+          <input type="text" name="" id="" class="form-control text-center" placeholder="nhập mã khách hàng" aria-describedby="helpId">
+        </div>
+        <div class="form-group-sub-exe4">
+          <div class="form-group">
+            <label for="" class="mb-0 d-block">Loại KH:</label>
+            <label for="personal" class="form-check-label mb-0 ml-5 d-block">
+              <input type="radio" class="form-check-input" name="loaiKH" id="personal" value="0"></input>
+              Cá nhân   
+            </label>
+            <label for="company" class="form-check-label mb-0 ml-5 d-block">
+              <input type="radio" class="form-check-input " name="loaiKH" id="company" value="1"></input>
+              Doanh nghiệp    
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="">Số kết nối:</label>
+            <input type="text" name="" id="connect" class="form-control text-center" placeholder="" aria-describedby="helpId">
+          </div>
+          <!-- <div class="form-group">
+            <label for="">Số kết nối:</label>
+            <input type="text" name="" id="" class="form-control text-center" placeholder="" aria-describedby="helpId">
+          </div> -->
+        </div>
+        <div class="form-group form-group-exe4">
+          <button class="btn btn-success" id="tinhTien">Tính tiền:</button>
+          <input type="text" name="" id="" class="form-control text-center" placeholder="tiền cước" aria-describedby="helpId" readonly>
+        </div>
+      </div>
+      <!-- End EXE 4 -->
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
