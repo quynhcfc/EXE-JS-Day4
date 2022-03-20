@@ -16,5 +16,5 @@ document.getElementById("tinhTienExe2").addEventListener("click", function () {
     tongTien =
       50 * 500 + 50 * 650 + 100 * 850 + 150 * 1100 + (soDien - 350) * 1300;
   }
-  txtTongTien.value = tongTien.toLocaleString();
+  txtTongTien.value = tongTien.toLocaleString() + " VNĐ";
 });

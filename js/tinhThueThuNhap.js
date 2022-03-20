@@ -30,7 +30,8 @@ document.getElementById("tinhTienThue").addEventListener("click", function () {
     if (tienThue <= 0) {
       document.getElementById("tienThue").value = "Miễn thuế";
     } else {
-      document.getElementById("tienThue").value = tienThue.toLocaleString();
+      document.getElementById("tienThue").value =
+        tienThue.toLocaleString() + " VNĐ";
     }
   }
 });

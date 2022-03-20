@@ -29,5 +29,5 @@ document.getElementById("tinhTien").addEventListener("click", function () {
   } else {
     tienCuoc = 15 + 75 + 5 * (connect.value * 1 - 10) + 50 * channel;
   }
-  document.getElementById("ketQuaExe4").value = tienCuoc;
+  document.getElementById("ketQuaExe4").value = tienCuoc + " $";
 });
