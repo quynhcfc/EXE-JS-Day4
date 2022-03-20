@@ -18,6 +18,7 @@ document.getElementById("check").addEventListener("click", function () {
   var tongDiem;
 
   if (diemMon1 == 0 || diemMon2 == 0 || diemMon3 == 0) {
+    tongDiem = diemMon1 + diemMon2 + diemMon3 + diemDoiTuong + diemKhuVuc;
     ketQua.innerText = "Rớt";
   } else {
     tongDiem = diemMon1 + diemMon2 + diemMon3 + diemDoiTuong + diemKhuVuc;
